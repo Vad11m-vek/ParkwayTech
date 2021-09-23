@@ -1,0 +1,194 @@
+.wrapper_page{
+	box-sizing: border-box;
+	max-width: 1920px;
+	margin: 0 auto;
+
+		.wrapper_header{
+			display: flex;
+			height: 110px;
+			justify-content: space-between;
+		}
+
+	ul{
+	display: flex;
+	list-style-type:none;
+
+	li{
+	text-transform: uppercase;
+	margin: 0 15px;
+	font-size: 30px;
+	display: flex;
+    align-items: center;
+	}
+}
+
+.background_img{
+			z-index: 29;
+	background-image: url("../img/content.png");
+	height: 1070px;
+
+	.headerColorText{
+	color: #df8f0f;	
+	}
+
+	h1{
+	text-align: center; 
+	padding-top: 110px;
+	margin: 0;
+	font-size: 60px;
+	font-family: Gilroy-Bold , sans serif;
+
+		span{
+		color:white;
+		}
+	}
+
+	.wrapper_form{
+		 position: relative;
+		z-index: 29;
+	margin: 0 auto;
+	margin-top:72px;
+	width: 1255px;
+	height: 670px;
+	background-color: #17213a;
+	background: linear-gradient(265deg, rgb(255, 255, 255) 55%, rgb(23, 33, 58) 5%);
+	border-radius: 0 50px 0 50px;
+	display: flex;
+
+		.contact_info{
+			width: 500px;
+			margin-top: 140px;
+			color: #ffffff;
+			font-family:  Montserrat-Regular,sans serif;
+			font-size: 20px;
+
+			.icon{
+				display: inline-block;
+			}
+
+			.context{
+				font-size: 20px;
+
+				span{
+					font-size: 20px;
+				}
+			}
+		}
+
+		.wrapper_input_form{
+			width: 760px;
+
+			.input_form_info{
+				margin: 90px 50px;
+				font-family: Montserrat-Regular,sans serif;
+				font-size: 16px;
+
+				h2{
+					color: #06295e;
+					margin: 0;
+					font-size: 28px;
+				}
+
+				span{
+					color: #000000;
+					font-size: 20px;
+				}
+
+				.input_form{
+				
+					display: flex;
+					flex-direction: column;
+
+					input{
+						background: transparent;
+						outline: 0;
+						border-width: 0;
+						border-bottom: solid black 4px;
+					}
+
+					label{
+						display: block;
+					}
+
+					input[type=submit]{
+						margin-top: 15px;
+						background-color: #34497b;
+						color:white;
+						height: 55px;
+						font-size: 35px;
+						font-family: Gilroy-ExtraBold,sans serif;
+						text-transform: uppercase;
+					}
+				}
+			}
+
+		}
+
+	}	
+
+}
+.wrappperMapImg{
+	max-width: 1920px;
+	position: relative;
+	height: 750px;
+
+		.map_img{
+		position:absolute;
+		top: -300px;
+		right: 0px;
+		z-index: 0;
+	}
+
+	.wrapperSingUp{
+		margin: 0;
+		position:absolute;
+		width: 550px;
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+		left: 330px;
+		top: -40px;
+		font-family: Gilroy-Bold , sans serif;
+		font-size: 28px;
+
+		h1{
+			margin: 0;
+		}
+
+		h3{
+			margin: 0 0 30px 0;
+			font-family: Gilroy-Bold , sans serif;
+			font-size: 20px;
+		}
+
+		label{
+			margin-top: 20px;
+		}
+
+		input{
+			background: transparent;
+			outline: 0;
+			border-width: 0;
+			border-bottom: solid black 4px;
+		}
+
+		input[type=submit]{
+			margin-top: 15px;
+			background-color: #34497b;
+			color:white;
+			width: 165px;
+			height: 55px;
+			font-size: 35px;
+			font-family: Gilroy-ExtraBold,sans serif;
+			text-transform: uppercase;
+		}
+	}
+}
+
+	footer{
+		display: flex;
+    
+	}
+
+
+}

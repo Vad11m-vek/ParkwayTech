@@ -1,0 +1,161 @@
+.wrapper_page {
+  box-sizing: border-box;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.wrapper_page .wrapper_header {
+  display: flex;
+  height: 110px;
+  justify-content: space-between;
+}
+.wrapper_page ul {
+  display: flex;
+  list-style-type: none;
+}
+.wrapper_page ul li {
+  text-transform: uppercase;
+  margin: 0 15px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+.wrapper_page .background_img {
+  z-index: 29;
+  background-image: url("../img/content.png");
+  height: 1070px;
+}
+.wrapper_page .background_img .headerColorText {
+  color: #df8f0f;
+}
+.wrapper_page .background_img h1 {
+  text-align: center;
+  padding-top: 110px;
+  margin: 0;
+  font-size: 60px;
+  font-family: Gilroy-Bold, sans serif;
+}
+.wrapper_page .background_img h1 span {
+  color: white;
+}
+.wrapper_page .background_img .wrapper_form {
+  position: relative;
+  z-index: 29;
+  margin: 0 auto;
+  margin-top: 72px;
+  width: 1255px;
+  height: 670px;
+  background-color: #17213a;
+  background: linear-gradient(265deg, white 55%, #17213a 5%);
+  border-radius: 0 50px 0 50px;
+  display: flex;
+}
+.wrapper_page .background_img .wrapper_form .contact_info {
+  width: 500px;
+  margin-top: 140px;
+  color: #ffffff;
+  font-family: Montserrat-Regular, sans serif;
+  font-size: 20px;
+}
+.wrapper_page .background_img .wrapper_form .contact_info .icon {
+  display: inline-block;
+}
+.wrapper_page .background_img .wrapper_form .contact_info .context {
+  font-size: 20px;
+}
+.wrapper_page .background_img .wrapper_form .contact_info .context span {
+  font-size: 20px;
+}
+.wrapper_page .background_img .wrapper_form .wrapper_input_form {
+  width: 760px;
+}
+.wrapper_page .background_img .wrapper_form .wrapper_input_form .input_form_info {
+  margin: 90px 50px;
+  font-family: Montserrat-Regular, sans serif;
+  font-size: 16px;
+}
+.wrapper_page .background_img .wrapper_form .wrapper_input_form .input_form_info h2 {
+  color: #06295e;
+  margin: 0;
+  font-size: 28px;
+}
+.wrapper_page .background_img .wrapper_form .wrapper_input_form .input_form_info span {
+  color: #000000;
+  font-size: 20px;
+}
+.wrapper_page .background_img .wrapper_form .wrapper_input_form .input_form_info .input_form {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper_page .background_img .wrapper_form .wrapper_input_form .input_form_info .input_form input {
+  background: transparent;
+  outline: 0;
+  border-width: 0;
+  border-bottom: solid black 4px;
+}
+.wrapper_page .background_img .wrapper_form .wrapper_input_form .input_form_info .input_form label {
+  display: block;
+}
+.wrapper_page .background_img .wrapper_form .wrapper_input_form .input_form_info .input_form input[type=submit] {
+  margin-top: 15px;
+  background-color: #34497b;
+  color: white;
+  height: 55px;
+  font-size: 35px;
+  font-family: Gilroy-ExtraBold, sans serif;
+  text-transform: uppercase;
+}
+.wrapper_page .wrappperMapImg {
+  max-width: 1920px;
+  position: relative;
+  height: 750px;
+}
+.wrapper_page .wrappperMapImg .map_img {
+  position: absolute;
+  top: -300px;
+  right: 0px;
+  z-index: 0;
+}
+.wrapper_page .wrappperMapImg .wrapperSingUp {
+  margin: 0;
+  position: absolute;
+  width: 550px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  left: 330px;
+  top: -40px;
+  font-family: Gilroy-Bold, sans serif;
+  font-size: 28px;
+}
+.wrapper_page .wrappperMapImg .wrapperSingUp h1 {
+  margin: 0;
+}
+.wrapper_page .wrappperMapImg .wrapperSingUp h3 {
+  margin: 0 0 30px 0;
+  font-family: Gilroy-Bold, sans serif;
+  font-size: 20px;
+}
+.wrapper_page .wrappperMapImg .wrapperSingUp label {
+  margin-top: 20px;
+}
+.wrapper_page .wrappperMapImg .wrapperSingUp input {
+  background: transparent;
+  outline: 0;
+  border-width: 0;
+  border-bottom: solid black 4px;
+}
+.wrapper_page .wrappperMapImg .wrapperSingUp input[type=submit] {
+  margin-top: 15px;
+  background-color: #34497b;
+  color: white;
+  width: 165px;
+  height: 55px;
+  font-size: 35px;
+  font-family: Gilroy-ExtraBold, sans serif;
+  text-transform: uppercase;
+}
+.wrapper_page footer {
+  display: flex;
+}
+
+/*# sourceMappingURL=index.css.map */
